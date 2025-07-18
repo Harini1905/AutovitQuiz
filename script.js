@@ -40,12 +40,36 @@ Cricket: [
 ],
   Robotics: [
     { q: "What is the name of the sensor most commonly used in robots to measure distance using sound?", options: ["LIDAR", "Ultrasonic sensor", "Infrared sensor", "Gyroscope"], a: 1 },
-    { q: "In robotics, what does the term ‘degree of freedom’ refer to?", options: ["Number of commands", "Movements", "Sensors", "Robots"], a: 1 },
+    { q: "In robotics, what does the term 'degree of freedom' refer to?", options: ["Number of commands", "Movements", "Sensors", "Robots"], a: 1 },
     { q: "Which programming language is most widely used with ROS?", options: ["Java", "Python", "C++", "Both B and C"], a: 3 },
     { q: "What kind of joint is commonly used in robotic arms like a shoulder?", options: ["Prismatic", "Revolute", "Ball-and-socket", "Cylindrical"], a: 1 },
-    { q: "ASIMO is a humanoid robot developed by which company?", options: ["Sony", "Honda", "Toyota", "Boston Dynamics"], a: 1 }
-  ]
-};
+    { q: "ASIMO is a humanoid robot developed by which company?", options: ["Sony", "Honda", "Toyota", "Boston Dynamics"], a: 1 },
+    { q: "What type of sensor is used in robots for detecting light intensity?", options: ["Ultrasonic sensor", "Infrared sensor", "Light-dependent resistor (LDR)", "Proximity sensor"], a: 2 },
+    { q: "Which component is responsible for providing movement in robot joints?", options: ["Controller", "Microcontroller", "Actuator", "Sensor"], a: 2 },
+    { q: "Which coordinate system is most commonly used in robotic arms?", options: ["Polar", "Cartesian", "Cylindrical", "Spherical"], a: 1 },
+    { q: "What is the primary function of an encoder in robotics?", options: ["Measure temperature", "Measure angular position", "Detect objects", "Provide WiFi"], a: 1 },
+    { q: "Which algorithm is widely used in robot path planning?", options: ["FIFO", "A*", "DFS", "Round Robin"], a: 1 },
+    { q: "What is the full form of SLAM in robotics?", options: ["Simultaneous Localization and Mapping", "Slow Light Adjustment Mechanism", "Systematic Location and Movement", "Sensor Location Allocation Map"], a: 0 },
+    { q: "What is the role of a gyroscope in a robot?", options: ["Detect distance", "Measure orientation", "Navigate path", "Capture image"], a: 1 },
+    { q: "Which sensor is commonly used for line-following robots?", options: ["Gyroscope", "Infrared sensor", "Ultrasonic sensor", "LIDAR"], a: 1 },
+    { q: "What does PID in PID controller stand for?", options: ["Proportional, Integral, Derivative", "Power, Input, Derive", "Pulse, Interval, Duration", "Position, Integration, Decision"], a: 0 },
+    { q: "Which device is used to convert electrical energy into mechanical energy in robotics?", options: ["Sensor", "Motor", "Transducer", "Relay"], a: 1 }
+  ],
+Anime: [
+    { q: "Which anime features a notebook that can kill people when their names are written in it?", options: ["Naruto", "Death Note", "One Piece", "Bleach"], a: 1 },
+    { q: "In 'Attack on Titan', what is the name of the main character?", options: ["Mikasa Ackerman", "Eren Yeager", "Levi Ackerman", "Armin Arlert"], a: 1 },
+    { q: "What is the name of the main character in 'Naruto'?", options: ["Sasuke Uchiha", "Naruto Uzumaki", "Kakashi Hatake", "Sakura Haruno"], a: 1 },
+    { q: "Which anime series features a boy who can transform into a half-demon by pulling a string on his headphones?", options: ["Blue Exorcist", "Demon Slayer", "Chainsaw Man", "Jujutsu Kaisen"], a: 2 },
+    { q: "In demon slayer, why is Nezuko immune to sunlight?", options: ["Her blood is mixed with Tanjiro's", "She consumed a blue spider lily", "Her body evolved naturally", "She drank Tamayo's medicine"], a: 2 },
+    { q: "What exact phrase does Rengoku say before dying in Mugen Train?", options: ["Set your heart ablaze.", "Tell my father I was wrong", "Nezuko is a fine young woman", "The flame never dies"], a: 0 },
+    { q: "In demon Slayer, what color does Inosuke think his sword should be?", options: ["Pink", "Green", "Indigo", "Beast-colored"], a: 3 },
+    { q: "In 'Dragon Ball', what device is used to measure power levels?", options: ["Power Meter", "Scouter", "Ki Reader", "Energy Lens"], a: 1 },
+    { q: "What is the name of the giant humanoid robots in 'Neon Genesis Evangelion'?", options: ["Gundams", "EVAs", "Titans", "Mechas"], a: 1 },
+    { q: "Which anime features a boy who becomes the strongest hero by doing 100 push-ups, sit-ups, and squats daily?", options: ["One Punch Man", "My Hero Academia", "Dragon Ball", "Black Clover"], a: 0 },
+    { q: "What is the name of the hidden ninja village where Naruto lives?", options: ["Hidden Leaf", "Hidden Sand", "Hidden Mist", "Hidden Cloud"], a: 0 }
+
+  ],
+  };
 
 let currentCategory = '';
 let currentQuestions = [];
